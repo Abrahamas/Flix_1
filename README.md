@@ -1,26 +1,21 @@
-# Project 1 - *Flix-part1*
+# Lab 3 - *Flix-Auto Layout*
 
-**Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **7:35** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [X] User sees app icon in home screen and styled launch screen (+1pt)
-- [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [X] User can "Pull to refresh" the movie list (+2pt)
-- [X] User sees a loading state while waiting for the movies to load (+2pt)
+- The following screens use AutoLayout to adapt to various orientations and screen sizes
+   - [X] Movie feed view (+3pt)
+   - [X] Detail view (+2pt)
 
 The following **stretch** user stories are implemented:
 
-- [ ] User sees an alert when there's a networking error (+1pt)
-- [ ] User can search for a movie (+3pt)
-- [ ] While poster is being fetched, user see's a placeholder image (+1pt)
-- [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
-- [ ] Customize the selection effect of the cell (+1pt)
-- [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete (+2pt)
+- [X] Dynamic Height Cells (+1)
+- [ ] Collection View AutoLayout (+2)
 
 The following **additional** user stories are implemented:
 
@@ -35,7 +30,8 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/Z0cZ6WX.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/SD0CVWg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/ddOdUh5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -45,7 +41,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2018] [Abraham Asmile]
+    Copyright [28/09/2018] [Abraham Asmile]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
